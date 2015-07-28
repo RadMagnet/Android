@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:albus="http://schemas.android.com/apk/res-auto"
+    android:layout_width="170dp"
+    android:layout_height="170dp"
+    android:layout_margin="4dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/category_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+
+    <FrameLayout
+        android:id="@+id/confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/category_blanket"
+            android:background="@color/lifeHacks"
+            android:alpha="0.7"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/checkbox_tick" />
+
+            <com.radmagnet.RadTextView
+                android:id="@+id/category_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:textColor="@color/allTheRads"
+                android:textSize="12sp"
+                albus:fontName="AlegreyaSans-Italic.otf" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/title_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <com.radmagnet.RadTextView
+            android:id="@+id/category_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:textAllCaps="true"
+            android:textColor="@color/allTheRads"
+            android:textSize="16sp"
+            albus:fontName="AlegreyaSans-ExtraBoldItalic.otf" />
+
+        <TextView
+            android:id="@+id/category_type"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

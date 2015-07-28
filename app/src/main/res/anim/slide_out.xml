@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- slide out-->
+<!--<translate-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:duration="@android:integer/config_longAnimTime"-->
+    <!--android:fromXDelta="0%p"-->
+    <!--android:toXDelta="-100%p">-->
+<!--</translate>-->
+
+<!-- Zoom Out -->
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    android:zAdjustment="top"
+    android:fromAlpha="1.0"
+    android:toAlpha="0.0"
+    android:duration="200" />

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:albus="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/materialheader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:padding="16dp">
+
+    <ImageView
+        android:clickable="true"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_menu" />
+
+    <com.radmagnet.RadTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="38dp"
+        android:text="EXPLORE, RADICALLY!"
+        android:textColor="@color/allTheRads"
+        android:textSize="16dp"
+        albus:fontName="AlegreyaSans-ExtraBoldItalic.otf" />
+
+</FrameLayout>

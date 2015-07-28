@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:albus="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+
+    <LinearLayout
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="19dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+        <com.radmagnet.RadTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HEY"
+            android:textColor="@color/allTheRads"
+            android:textSize="8sp"
+            albus:fontName="AlegreyaSans-BlackItalic.otf" />
+
+        <com.radmagnet.RadTextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-9dp"
+            android:text="NIKHIL"
+            android:textAllCaps="true"
+            android:textColor="@color/allTheRads"
+            android:textSize="24sp"
+            albus:fontName="AlegreyaSans-ExtraBoldItalic.otf" />
+
+        <com.radmagnet.RoundedImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp" />
+
+        <com.radmagnet.RadTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="0dp"
+            android:gravity="center_horizontal"
+            android:text="The magnet now knows who you are"
+            android:textAllCaps="true"
+            android:textColor="@color/allTheRads"
+            android:textSize="16sp"
+            albus:fontName="AlegreyaSans-Italic.otf" />
+
+        <com.radmagnet.RadTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Now you can polorize your magnet to attract the Rads you love"
+            android:textColor="@color/allTheRads"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            albus:fontName="NotoSerif-Bold.ttf" />
+
+        <ImageView
+            android:id="@+id/select_categories"
+            android:layout_width="294dp"
+            android:layout_height="56dp"
+            android:src="@drawable/category_select"
+            android:layout_marginTop="26dp"
+            android:scaleType="fitXY"
+            android:nestedScrollingEnabled="true" />
+
+    </LinearLayout>
+    <!-- Content -->
+
+
+    <LinearLayout
+        android:id="@+id/back_trigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/back" />
+
+        <com.radmagnet.RadTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="-1dp"
+            android:text="BACK"
+            android:textColor="@color/allTheRads"
+            android:textSize="18sp"
+            albus:fontName="AlegreyaSans-ExtraBoldItalic.otf" />
+
+    </LinearLayout>
+    <!-- Login Pending -->
+
+
+</FrameLayout>

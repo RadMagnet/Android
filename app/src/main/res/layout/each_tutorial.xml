@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sheath"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tutorial_sheath"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_height="555dp"
+        android:layout_width="310dp"
+        android:id="@+id/tutorial_screen"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+</FrameLayout>

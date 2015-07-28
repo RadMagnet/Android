@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/matteBack"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/rad_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="@color/events"
+                android:src="@drawable/ic_events"
+                android:id="@+id/category_image"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:scaleType="fitCenter"
+                android:padding="16dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black">
+
+                <com.radmagnet.RadTextView
+                    android:id="@+id/category_title"
+                    android:text="Jobs &amp; Internships"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/allTheRads"
+                    android:textSize="18sp"
+                    app:fontName="AlegreyaSans-ExtraBoldItalic.otf"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp" />
+
+                <com.radmagnet.RadTextView
+                    android:id="@+id/category_subtitle"
+                    android:layout_width="184dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/allTheRads"
+                    android:textSize="13sp"
+                    app:fontName="AlegreyaSans-Regular.otf"
+                    android:layout_marginLeft="16dp"
+                    android:text="Jobs and Internships" />
+
+                <com.radmagnet.RadTextView
+                    android:id="@+id/category_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TRY IT"
+                    android:textSize="13sp"
+                    app:fontName="AlegreyaSans-ExtraBoldItalic.otf"
+                    android:layout_gravity="right"
+                    android:textAllCaps="true"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="6dp"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:background="@color/events"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/category_type"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

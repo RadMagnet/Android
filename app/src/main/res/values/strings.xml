@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">RadMagnet</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="share_text">Yo! check out what I discovered through RadMagnet \n</string>
+    <string name="share_app">Yo! this is RadMagnet, a cool new app to help us find everything exciting and unique in the city. Check it out! \n</string>
+    <string name="facebook_app_id">1630529600566807</string>
+
+    <string name="city_news_subtext">Rad ups &amp; downs of your city</string>
+    <string name="citizens_voice_subtext">Blogs and Testimonials</string>
+    <string name="backpacking_subtext">Travel - Budget, Family, Luxury, Romantic, Solo</string>
+    <string name="business_subtext">Corporate and Startups</string>
+    <string name="entertainment_subtext">DIY, Film, Gaming, Music &amp; Dance, Photography, Theatre</string>
+    <string name="events_subtext">Cultural, Charity, Conferences, Concerts, Exhibitions, Festivals, Workshops</string>
+    <string name="grubs_pubs_subtext">Bars, Cafes, Dining - Casual, Fine, Mixology, Pubs, Fast Food, Recipes, Street Food</string>
+    <string name="hot_wheels_subtext">Classic Cars, Super Cars, Motor Cycles</string>
+    <string name="lifestyle_subtext">Beauty Products, Beauty Treatments</string>
+    <string name="live_better_subtext">Life Hacks</string>
+    <string name="jobs_internships_subtext">Jobs &amp; Internships at local &amp; international companies</string>
+    <string name="deals_subtext">Just about anything!</string>
+    <string name="sweatout_subtext">Cross Fit, Nutrition, Workout, Yoga</string>
+
+    <string name="sharedprefs_categoryprefs">category_prefs</string>
+    <string name="sharedprefs_modifiedchoices">modified_choices</string>
+    <string name="sharedprefs_APIrequestString">requestString</string>
+    <string name="sharedprefs_loginid">loginId</string>
+    <string name="sharedprefs_loginsource">loginSource</string>
+    <string name="sharedprefs_loginname">loginName</string>
+    <string name="sharedprefs_loginpic">loginPic</string>
+    <string name="sharedprefs_loginstatus">loginStatus</string>
+    <string name="sharedprefs_welcome_number">welcomeNumber</string>
+    <string name="sharedprefs_first_start">firstStart</string>
+
+    <string name="welcomesubone">When you sign into RadMagnet, you will get Rads which you would love</string>
+    <string name="welcomesubtwo">The Magnet is attracting new Rads</string>
+    <string name="welcomesubthree">Picking categories helps you personalize your Magnet</string>
+
+    <string name="tutorial_slide_one">A collection of Rads</string>
+    <string name="tutorial_slide_subone">RadMagnet is a collection of the coolest stuff in and around your city</string>
+    <string name="tutorial_slide_two">Funky details</string>
+    <string name="tutorial_slide_subtwo">Every Rad has a few funky details to help you know more</string>
+    <string name="tutorial_slide_three">Read, Share, Love</string>
+    <string name="tutorial_slide_subthree">RadMagnet is an exploration app on steroids</string>
+    <string name="tutorial_slide_four">Personalize</string>
+    <string name="tutorial_slide_subfour">RadMagnet only needs to know who you are &amp; what you love</string>
+    <string name="tutorial_slide_five">Explore what you love</string>
+    <string name="tutorial_slide_subfive">Pick from over 20 Rad categories that you wish to be Rad</string>
+
+
+</resources>

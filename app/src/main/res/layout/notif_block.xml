@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:albus="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/matteBack"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/rad_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/notif_cover"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/notif_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="16dp" />
+
+            <com.radmagnet.RadTextView
+                android:id="@+id/notif_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/allTheRads"
+                android:textSize="18sp"
+                albus:fontName="NotoSerif-Bold.ttf"
+                android:layout_gravity="left" />
+
+            <com.radmagnet.RadTextView
+                android:id="@+id/notif_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                albus:fontName="AlegreyaSans-Regular.otf" />
+
+            <com.radmagnet.RadTextView
+                android:id="@+id/notif_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                albus:fontName="AlegreyaSans-ExtraBoldItalic.otf"
+                android:layout_gravity="right"
+                android:textAllCaps="true"
+                android:paddingTop="4dp"
+                android:paddingBottom="6dp"
+                android:paddingRight="8dp"
+                android:paddingLeft="8dp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

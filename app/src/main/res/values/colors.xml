@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#212121</color>
+    <color name="white">#fcfcfc</color>
+    <color name="offWhite">#f9fafa</color>
+    <color name="gray">#757575</color>
+    <color name="matteBack">#424242</color>
+    <color name="categorytile">#BDBDBD</color>
+    <color name="facebook">#4666af</color>
+    <color name="shadow">#7F000000</color>
+
+    <color name="allTheRads">#fcfcfc</color>
+    <color name="broadcasts">#448AFF</color>
+    <color name="grubs_pubs">#871A50</color>
+    <color name="events">#B62025</color>
+    <color name="hotspots">#004D40</color>
+    <color name="lifeHacks">#25b620</color>
+    <color name="deals">#E040FB</color>
+    <color name="movies">#9C9C36</color>
+    <color name="news">#448AFF</color>
+    <color name="radsIlove">#E040FB</color>
+    <color name="blogs">#00579B</color>
+    <color name="fitness">#2C2F78</color>
+    <color name="shopping">#4B2C86</color>
+    <color name="jobs_internships">#F36F21</color>
+    <color name="travel">#87172F</color>
+    <color name="jobs">#e9f308</color>
+    <color name="login">#ffca02</color>
+    <color name="pink">#9C27B0</color>
+
+    <color name="darkevents">#731417</color>
+    <color name="darknews">#0046ba</color>
+
+    <color name="separator">#e0e0e0</color>
+    <color name="separator_dark">#383838</color>
+
+    <color name="headlineseparator">#414141</color>
+
+</resources>

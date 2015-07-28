@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Slide in -->
+<!--<translate-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:duration="@android:integer/config_longAnimTime"-->
+    <!--android:fromXDelta="100%p"-->
+    <!--android:toXDelta="0%p">-->
+<!--</translate>-->
+
+<!-- Zoom In -->
+<!--<alpha xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:interpolator="@android:anim/accelerate_interpolator"-->
+    <!--android:fromAlpha="0.0"-->
+    <!--android:toAlpha="1.0"-->
+    <!--android:duration="200" />-->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false"
+    android:zAdjustment="top" >
+    <alpha
+        android:duration="@android:integer/config_longAnimTime"
+        android:fillAfter="false"
+        android:fillBefore="false"
+        android:fillEnabled="true"
+        android:fromAlpha="0.0"
+        android:interpolator="@android:interpolator/decelerate_cubic"
+        android:toAlpha="1.0" />
+    <scale
+        android:duration="@android:integer/config_longAnimTime"
+        android:fillAfter="false"
+        android:fillBefore="false"
+        android:fillEnabled="true"
+        android:fromXScale="0"
+        android:fromYScale="0"
+        android:interpolator="@android:interpolator/decelerate_quint"
+        android:pivotX="50%p"
+        android:pivotY="50%p"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+</set>
