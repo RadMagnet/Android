@@ -13,10 +13,10 @@ This is the repository of the RadMagnet Android App
 # GIT Help
 ## Make changes to your local files
 ## Check which files have been changes since last push
-1. git status
+    - git status
 ## Add files to staging area
-1. git add file_name
+    - git add file_name
 ## Create a commit
-1. git commit -m "A Commit Message"
+    - git commit -m "A Commit Message"
 ## Push to your branch only
-1. git push origin your_branch
+    - git push origin your_branch
